@@ -10,6 +10,6 @@ public interface AccountRepository {
 
     List<Account> findAll();
 
-    List<Account> findById(Long accountId);
+    Account findById(Long accountId);
 
 }
